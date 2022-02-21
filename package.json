@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "yarn prebuild && strapi develop",
-    "start": "yarn prebuild && strapi start",
-    "build": "yarn prebuild && strapi build",
+    "develop": "npm run prebuild && strapi develop",
+    "start": "npm run prebuild && strapi start",
+    "build": "npm run prebuild && strapi build",
     "strapi": "strapi",
     "prebuild": "node ./.scripts/index.js"
   },
@@ -16,6 +16,7 @@
     "@strapi/plugin-i18n": "4.0.3",
     "@strapi/plugin-users-permissions": "4.0.3",
     "@strapi/strapi": "4.0.3",
+    "fs-extra": "^10.0.0",
     "sqlite3": "5.0.2"
   },
   "author": {
