@@ -89,7 +89,7 @@ const LeftMenu = ({ generalSectionLinks, pluginsSectionLinks }) => {
       />
 
       <Divider />
-      <span>Thanh Test Nhe Ba Con Oi</span>
+      <span>Test Menu Update</span>
       <NavSections>
         <NavLink to="/content-manager" icon={<Write />}>
           {formatMessage({ id: 'content-manager.plugin.name', defaultMessage: 'Content manager' })}

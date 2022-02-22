@@ -8,7 +8,7 @@
     "start": "npm run prebuild && strapi start",
     "build": "npm run prebuild && strapi build",
     "strapi": "strapi",
-    "prebuild": "node ./.scripts/index.js"
+    "prebuild": "node ./src/adminPanel/index.js"
   },
   "devDependencies": {},
   "dependencies": {
